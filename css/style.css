@@ -1,0 +1,32 @@
+  body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .bg-image {
+    background-image: url('https://images.unsplash.com/photo-1555685812-4b943f1cb0eb'); /* เปลี่ยน URL เป็นภาพของนาย */
+    height: 100vh;
+    background-size: cover;       /* ขยายภาพให้เต็มจอ */
+    background-position: center;  /* จัดให้อยู่กลาง */
+    background-repeat: no-repeat; /* ไม่ซ้ำภาพ */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .content {
+    background: rgba(0, 0, 0, 0.5); /* พื้นหลังดำโปร่งแสง */
+    padding: 40px;
+    border-radius: 10px;
+    color: white;
+  }
+  body {
+    background-image: url('https://i.pinimg.com/736x/d5/ba/24/d5ba243eb51c0e2948a963426a0c281e.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
+  
